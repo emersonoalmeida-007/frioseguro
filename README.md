@@ -13,6 +13,8 @@ Os resultados aparecem num painel web.
 
 > Todos os dados deste repositório são **fictícios ou simulados**. A transportadora parceira aparece com nome fictício. Os arquivos reais do teste de rota ficam fora do Git (`dados_teste_rota/` no `.gitignore`) e são anonimizados antes do uso.
 
+**Painel publicado:** https://emersonoalmeida-007-frioseguro-painelapp-ehweoo.streamlit.app
+
 ## Arquitetura
 
 ```
