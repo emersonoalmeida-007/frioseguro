@@ -1,0 +1,83 @@
+{
+  "gerado_em": "2026-11-25T15:54:32",
+  "n_leituras": 1145007,
+  "n_viagens": 4000,
+  "risco": {
+    "amostras_treino": 154065,
+    "amostras_teste": 50709,
+    "viagens_teste": 1000,
+    "taxa_positivos": 0.030453084864289413,
+    "modelos": {
+      "arvore_decisao": {
+        "precisao": 0.260347415826721,
+        "revocacao": 0.8236092265943012,
+        "f1": 0.3956330454619521,
+        "auc_roc": 0.926216395794599,
+        "matriz_confusao": [
+          [
+            45786,
+            3449
+          ],
+          [
+            260,
+            1214
+          ]
+        ],
+        "importancia": {
+          "temperatura_filtrada": 0.7127600603277882,
+          "d5": 0.13394916265216375,
+          "gradiente": 0.05413165392735889,
+          "min_desde_saida": 0.033847602633152625,
+          "embalagem_caixa": 0.024390236135020983,
+          "desvio15": 0.019681291088450133,
+          "temp_externa_c": 0.016030426502429553,
+          "media15": 0.003334777951231381,
+          "hora": 0.0018747887824045431,
+          "d15": 0.0,
+          "mes": 0.0
+        }
+      },
+      "floresta_aleatoria": {
+        "precisao": 0.4246771879483501,
+        "revocacao": 0.8032564450474898,
+        "f1": 0.5556076959174097,
+        "auc_roc": 0.9448581065057937,
+        "matriz_confusao": [
+          [
+            47631,
+            1604
+          ],
+          [
+            290,
+            1184
+          ]
+        ],
+        "importancia": {
+          "temperatura_filtrada": 0.2639175664918083,
+          "media15": 0.24209101227365218,
+          "d5": 0.09674146751955869,
+          "d15": 0.08413412613039899,
+          "desvio15": 0.06933223922947085,
+          "gradiente": 0.06238795666604024,
+          "min_desde_saida": 0.06004452669395658,
+          "temp_externa_c": 0.05367224127960529,
+          "hora": 0.03293723767797184,
+          "embalagem_caixa": 0.020025747249609694,
+          "mes": 0.014715878787927511
+        }
+      }
+    },
+    "escolhido": "floresta_aleatoria"
+  },
+  "anomalia": {
+    "contaminacao": 0.002,
+    "precisao": 0.6995260663507109,
+    "revocacao": 1.0,
+    "f1": 0.8232013385387619
+  },
+  "grupos": {
+    "k": 4,
+    "silhueta": 0.40428585921767324
+  },
+  "tempo_processamento_s": 191.0
+}
